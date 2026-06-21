@@ -3,7 +3,7 @@
 #include "config.h"
 #include "utilidades.h"
 
-/* razon = valor / limite_oms del contaminante mas critico */
+
 const char* clasificar_nivel_oms(double razon) {
     if (razon <= 1.0) {
         return "ACEPTABLE: la calidad del aire prevista esta dentro de los limites de la OMS.";
