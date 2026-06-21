@@ -32,7 +32,7 @@ void mostrar_predicciones(const Zona *z, int idx) {
     printf("  NO2:   %8.2f ug/m3  (limite OMS %.0f)\n", z->prediccion.no2,  LIMITE_NO2);
     printf("  PM2.5: %8.2f ug/m3  (limite OMS %.0f)\n", z->prediccion.pm25, LIMITE_PM25);
 
-    /* se evalua el contaminante que mas se acerque o supere su limite */
+  
     double razon_co2  = z->prediccion.co2  / LIMITE_CO2;
     double razon_so2  = z->prediccion.so2  / LIMITE_SO2;
     double razon_no2  = z->prediccion.no2  / LIMITE_NO2;
