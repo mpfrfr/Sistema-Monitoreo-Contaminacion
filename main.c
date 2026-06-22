@@ -23,7 +23,7 @@ int main(void)
 
     printf("\n");
     separador();
-    printf("        SISTEMA DE MONITOREO DE CONTAMINACION DEL AIRE\n");
+    printf("        BIENVENIDO A WEARCHER\n");
     separador();
 
     for (int i = 0; i < NUM_ZONAS; i++)
