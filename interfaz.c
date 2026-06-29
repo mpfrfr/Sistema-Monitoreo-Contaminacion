@@ -10,7 +10,7 @@ void mostrar_menu(void) {
     printf("%37s\n", "MENU PRINCIPAL");
     separador();
     printf("  1. Ingresar datos actuales de todas las zonas\n");
-    printf("  2. Registrar el dia 30 (dato mas reciente) de una zona\n");
+    printf("  2. Modificar el dia 30 (dato mas reciente) de una zona\n");
     printf("  3. Mostrar estado de todas las zonas\n");
     printf("  4. Ver detalle de una zona\n");
     printf("  5. Verificar alertas (incluye contexto climatico)\n");
